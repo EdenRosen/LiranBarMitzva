@@ -1,0 +1,62 @@
+:root {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+* {
+    /* font-family: 'Orbitron', 'Hind Madurai', sans-serif; */
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    margin: 0;
+    justify-content: center;
+    display: flex;
+    background-image: url('images/bg1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+#main_container {
+    display: flex;
+    flex-direction: column;
+    min-height: 600px;
+    align-items: center;
+    background-color: white;
+    padding-bottom: 40px;
+    box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.295);
+}
+
+#invitation_image {
+    max-height: 151vh;
+}
+
+a {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a > img {
+    width: 10vh;
+    height: 10vh;
+}
+
+.location {
+    width: 10vh;
+    height: 10vh;
+    border-radius: 50%;
+    color: white;
+    background-color: white;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    overflow: hidden;
+}
+
+.location:hover > img{
+    opacity: 0.7;
+}
+  
